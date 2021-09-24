@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Bebas+Neue&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
+}
+
+.section__img > p {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+/* Index */
+/* Header */
+.header__indeDiv {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#303843), color-stop(#35404f), color-stop(#3a485b), color-stop(#3f5168), color-stop(#445975), color-stop(#4b617e), color-stop(#536986), color-stop(#5a718f), color-stop(#667a95), color-stop(#71839a), color-stop(#7d8da0), to(#8996a6));
+  background-image: linear-gradient(to bottom, #303843, #35404f, #3a485b, #3f5168, #445975, #4b617e, #536986, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.nav__pala {
+  font-size: 1.5rem;
+  margin-left: 13px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.nav__pala:hover {
+  background-color: #8a9aae;
+}
+
+/* Header */
+/* Main */
+.section__maIn {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#4b6587), color-stop(#707f9c), color-stop(#939ab2), color-stop(#b4b7c8), color-stop(#d5d5df), color-stop(#d5d5df), color-stop(#d5d5df), color-stop(#d5d5df), color-stop(#b4b7c8), color-stop(#939ab2), color-stop(#707f9c), to(#4b6587));
+  background-image: linear-gradient(to right top, #4b6587, #707f9c, #939ab2, #b4b7c8, #d5d5df, #d5d5df, #d5d5df, #d5d5df, #b4b7c8, #939ab2, #707f9c, #4b6587);
+}
+
+.section__titulo {
+  background-image: url(http://www.universidadceulver.edu.mx/wpceul/wp-content/uploads/2016/05/background1.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-style: solid;
+  height: 250px;
+  width: 100%;
+}
+
+.section__foto1 {
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.section__foto1 h2 {
+  font-size: 2.5rem;
+  text-align: unset;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.section__foto1 h2:hover {
+  color: #4477b6;
+}
+
+.section__foto1 p {
+  font-size: 2rem;
+  text-align: unset;
+  padding: 1rem;
+}
+
+.section__foto2 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+
+.section__foto2 h2 {
+  font-size: 2.5rem;
+  text-align: unset;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.section__foto2 h2:hover {
+  color: #4477b6;
+}
+
+.section__foto2 p {
+  font-size: 2rem;
+  text-align: unset;
+  padding: 1rem;
+}
+
+.section__foto3 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+
+.section__foto3 h2 {
+  font-size: 2.5rem;
+  text-align: unset;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.section__foto3 h2:hover {
+  color: #4477b6;
+}
+
+.section__foto3 p {
+  font-size: 2rem;
+  text-align: unset;
+  padding: 1rem;
+}
+
+.section__foto4 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+
+.section__foto4 h2 {
+  font-size: 2.5rem;
+  text-align: unset;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.section__foto4 h2:hover {
+  color: #4477b6;
+}
+
+.section__foto4 p {
+  font-size: 2rem;
+  text-align: unset;
+  padding: 1rem;
+}
+
+.section__foto5 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+
+.section__foto5 h2 {
+  font-size: 2.5rem;
+  text-align: unset;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.section__foto5 h2:hover {
+  color: #4477b6;
+}
+
+.section__foto5 p {
+  font-size: 2rem;
+  text-align: unset;
+  padding: 1rem;
+}
+
+.section__foto6 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+
+.section__foto6 h2 {
+  font-size: 2.5rem;
+  text-align: unset;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.section__foto6 h2:hover {
+  color: #4477b6;
+}
+
+.section__foto6 p {
+  font-size: 2rem;
+  text-align: unset;
+  padding: 1rem;
+}
+
+/* Main */
+/* Footer */
+.footer__divMayor {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), color-stop(#1c1619), color-stop(#2e242e), color-stop(#3e3547), color-stop(#484862), color-stop(#4f5571), color-stop(#546380), color-stop(#5a718f), color-stop(#667a95), color-stop(#71839a), color-stop(#7d8da0), to(#8996a6));
+  background-image: linear-gradient(to right bottom, #000000, #1c1619, #2e242e, #3e3547, #484862, #4f5571, #546380, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+}
+
+.footer__divAyuda {
+  color: white;
+  text-align: center;
+  margin: 1rem;
+  margin-top: 2rem;
+  width: 20%;
+}
+
+.footer__divAyuda h2 {
+  font-size: 2rem;
+  font-family: monospace;
+}
+
+.footer__divAyuda p {
+  font-size: 1.3rem;
+  font-family: monospace;
+}
+
+.footer__Class {
+  color: white;
+  margin-top: 10rem;
+  font-size: 1rem;
+}
+
+.footer__divRedes {
+  padding: 2rem;
+  margin: 3rem;
+}
+
+.footer__divRedes p {
+  color: white;
+  font-size: 1rem;
+  font-family: monospace;
+  margin-left: 4rem;
+}
+
+.footer__divRedes ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  margin: 1rem;
+}
+
+.footer__divRedes ul li {
+  padding: 1rem;
+}
+
+/* Footer */
+/* Servicio */
+.section__imaMain {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#445872), color-stop(#747e93), color-stop(#a3a6b6), color-stop(#d1d1da), to(#ffffff));
+  background-image: linear-gradient(to left bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+}
+
+.section__imaMain ul {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(#1c1619), color-stop(#2e242e), color-stop(#3e3547), color-stop(#484862), color-stop(#4f5571), color-stop(#546380), color-stop(#5a718f), color-stop(#667a95), color-stop(#71839a), color-stop(#7d8da0), to(#8996a6));
+  background-image: linear-gradient(to bottom, #000000, #1c1619, #2e242e, #3e3547, #484862, #4f5571, #546380, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+  color: white;
+  font-size: 2.5rem;
+  line-height: 2;
+  padding: 5rem;
+  margin-top: 5rem;
+  margin-right: 20rem;
+  margin-bottom: 20rem;
+  list-style: none;
+}
+
+.section__divH2 {
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  padding: 2rem;
+  margin-left: 20rem;
+  margin-right: 10rem;
+}
+
+.section__divH2 h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.section__divH2 P {
+  padding: 1rem;
+}
+
+.section__img {
+  background-image: -webkit-gradient(linear, right top, left top, from(#4b6587), color-stop(#586f8e), color-stop(#647a95), color-stop(#71849d), color-stop(#7e8fa4), color-stop(#8e9bae), color-stop(#9ea7b8), color-stop(#adb4c2), color-stop(#c2c6d1), color-stop(#d7d8e0), color-stop(#ebebef), to(#ffffff));
+  background-image: linear-gradient(to left, #4b6587, #586f8e, #647a95, #71849d, #7e8fa4, #8e9bae, #9ea7b8, #adb4c2, #c2c6d1, #d7d8e0, #ebebef, #ffffff);
+  height: 250px;
+  width: 100%;
+  font-size: 3rem;
+  padding: 7rem;
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: monospace;
+}
+
+/* Reparacion */
+.section__prin {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#445872), color-stop(#747e93), color-stop(#a3a6b6), color-stop(#d1d1da), to(#ffffff));
+  background-image: linear-gradient(to right bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+}
+
+.section__primerTi h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.section__imaMedia {
+  padding: 2rem;
+  margin-left: 5rem;
+  margin-right: 10rem;
+  height: 400px;
+}
+
+.section__conteNido {
+  padding: 1rem;
+  margin: 1rem;
+  margin-right: 15rem;
+}
+
+.section__conteNido h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section__conteNido ul {
+  font-size: 1.5rem;
+  padding: 2rem;
+  line-height: 2.5;
+  list-style: none;
+}
+
+h3 {
+  text-align: center;
+  font-size: 4rem;
+  padding: 4rem;
+  display: inline-block;
+  position: relative;
+}
+
+h3::after,
+h3::before {
+  content: "";
+  position: absolute;
+  width: 320px;
+  height: 3px;
+  background-color: black;
+  top: 1.7em;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+h3:hover::before,
+h3:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+h3::before {
+  left: -1px;
+}
+
+h3::after {
+  right: -1px;
+}
+
+.repa__img {
+  margin-top: 10rem;
+}
+
+.section__li {
+  padding: 5rem;
+}
+
+.section__li h4 {
+  font-size: 2rem;
+  padding: 2rem;
+  font-weight: bold;
+}
+
+.section__li ul {
+  font-size: 1.8rem;
+  padding: 2rem;
+  line-height: 1.5;
+  list-style: none;
+}
+
+/* Nosotros */
+.section__grid {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#445872), color-stop(#747e93), color-stop(#a3a6b6), color-stop(#d1d1da), to(#ffffff));
+  background-image: linear-gradient(to left bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+}
+
+.section__nosoTro {
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+}
+
+.section__nosoTro h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h2 {
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.pregunTa {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.respuesTa {
+  background-color: #4B6587;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.nav__img {
+  background-image: url(https://www.3digits.es/wp-content/uploads/2021/01/Seguridad-Informatica-Activa-Y-Pasiva.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  margin: 1rem;
+}
+
+.nav__img h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.nav__one {
+  margin: 2rem;
+  background-color: #a9bdc5;
+}
+
+.nav__one p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Contacto */
+.mainSec {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#445872), color-stop(#747e93), color-stop(#a3a6b6), color-stop(#d1d1da), to(#ffffff));
+  background-image: linear-gradient(to right bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.telFo {
+  margin: 1rem;
+}
+
+.teLe {
+  background: -webkit-linear-gradient(#273128, #166ed8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.ofiCi {
+  background: -webkit-linear-gradient(#1e3621, #166ed8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: end;
+  font-weight: bold;
+}
+
+.mapa {
+  text-align: center;
+}
+
+.formu__lario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 4rem;
+  margin: 4rem;
+}
+
+.formu__lario h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.div {
+  text-align: center;
+}
+
+.div h1 {
+  font-size: 70px;
+}
+
+.div p {
+  font-size: 15px;
+}
+/*# sourceMappingURL=syle.css.map */

@@ -1,0 +1,47 @@
+/* Servicio */
+
+.section__imaMain {
+    background-image: linear-gradient(to left bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+
+    ul {
+        background-image: linear-gradient(to bottom, #000000, #1c1619, #2e242e, #3e3547, #484862, #4f5571, #546380, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+        color: $colsec;
+        font-size: 2.5rem;
+        line-height: 2;
+        padding: 5rem;
+        margin-top: 5rem;
+        margin-right: 20rem;
+        margin-bottom: 20rem;
+        list-style: none;
+    }
+}
+
+.section__divH2 {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    padding: 2rem;
+    margin-left: 20rem;
+    margin-right: 10rem;
+
+    h1 {
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+
+    P {
+        padding: 1rem;
+    }
+}
+
+.section__img {
+    background-image: linear-gradient(to left, #4b6587, #586f8e, #647a95, #71849d, #7e8fa4, #8e9bae, #9ea7b8, #adb4c2, #c2c6d1, #d7d8e0, #ebebef, #ffffff);
+    height: $alto-box;
+    width: $ancho-box;
+    font-size: 3rem;
+    padding: 7rem;
+    font-size: 3.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: monospace;
+}

@@ -1,0 +1,49 @@
+/* Contacto */
+
+.mainSec {
+    background-image: linear-gradient(to right bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+    display: flex;
+}
+
+.telFo {
+    margin: 1rem;
+}
+
+.teLe {
+    background: -webkit-linear-gradient(rgb(39, 49, 40),#166ed8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ofiCi {
+    background: -webkit-linear-gradient(rgb(30, 54, 33),#166ed8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: end;
+    font-weight: bold;
+}
+
+.mapa {
+    text-align: center;
+}
+
+.formu__lario {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    margin: 4rem;
+
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+        margin: 1.5rem;
+    }
+
+}

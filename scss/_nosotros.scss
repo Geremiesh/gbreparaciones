@@ -1,0 +1,58 @@
+/* Nosotros */
+
+.section__grid {
+    background-image: linear-gradient(to left bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+}
+
+.section__nosoTro {
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    font-size: 2rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+h2 {
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.pregunTa {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.respuesTa {
+    background-color: $colprin;
+    color: $colsec;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.nav__img {
+    background-image: url(https://www.3digits.es/wp-content/uploads/2021/01/Seguridad-Informatica-Activa-Y-Pasiva.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    margin: 1rem;
+    
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.nav__one {
+    margin: 2rem;
+    background-color: rgb(169, 189, 197);
+
+    p {
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-style: italic;
+    }
+}

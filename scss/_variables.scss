@@ -1,0 +1,34 @@
+$colprin: #4B6587;
+$colsec: white;
+$alto-box:250px;
+$ancho-box: 100%;
+
+
+$img: op;
+
+.section__img>p {
+
+    @if $img==1op {
+        color: red;
+        font-size: 2rem;
+        font-family: monospace;
+    }
+
+    @else if $img==2op {
+        color: blue;
+        font-size: 3rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    @else if $img==3op {
+        color: green;
+        font-size: 4rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    @else {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+}

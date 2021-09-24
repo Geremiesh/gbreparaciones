@@ -1,0 +1,233 @@
+/* Index */
+/* Header */
+
+.header__indeDiv {
+    background-image: linear-gradient(to bottom, #303843, #35404f, #3a485b, #3f5168, #445975, #4b617e, #536986, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.nav__pala {
+    font-size: 1.5rem;
+    margin-left: 13px;
+    transition: all 1s;
+}
+
+.nav__pala:hover {
+    background-color: #8a9aae;
+}
+
+/* Header */
+
+/* Main */
+
+.section__maIn {
+    background-image: linear-gradient(to right top, #4b6587, #707f9c, #939ab2, #b4b7c8, #d5d5df, #d5d5df, #d5d5df, #d5d5df, #b4b7c8, #939ab2, #707f9c, #4b6587);
+}
+
+.section__titulo {
+    background-image: url(http://www.universidadceulver.edu.mx/wpceul/wp-content/uploads/2016/05/background1.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-style: solid;
+    height: $alto-box;
+    width: $ancho-box;
+}
+
+.section__foto1 {
+    text-align: center;
+    padding-top: 4rem;
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: unset;
+        padding: 1rem;
+        font-weight: bold;
+    }
+
+    h2:hover {
+        color: #4477b6;
+    }
+
+    p {
+        font-size: 2rem;
+        text-align: unset;
+        padding: 1rem;
+    }
+}
+
+.section__foto2 {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: unset;
+        padding: 1rem;
+        font-weight: bold;
+    }
+
+    h2:hover {
+        color: #4477b6;
+    }
+
+    p {
+        font-size: 2rem;
+        text-align: unset;
+        padding: 1rem;
+    }
+}
+
+.section__foto3 {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: unset;
+        padding: 1rem;
+        font-weight: bold;
+    }
+
+    h2:hover {
+        color: #4477b6;
+    }
+
+    p {
+        font-size: 2rem;
+        text-align: unset;
+        padding: 1rem;
+    }
+}
+
+.section__foto4 {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: unset;
+        padding: 1rem;
+        font-weight: bold;
+    }
+
+    h2:hover {
+        color: #4477b6;
+    }
+
+    p {
+        font-size: 2rem;
+        text-align: unset;
+        padding: 1rem;
+    }
+}
+
+.section__foto5 {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: unset;
+        padding: 1rem;
+        font-weight: bold;
+    }
+
+    h2:hover {
+        color: #4477b6;
+    }
+
+    p {
+        font-size: 2rem;
+        text-align: unset;
+        padding: 1rem;
+    }
+}
+
+.section__foto6 {
+    text-align: center;
+    padding-top: 4rem;
+    font-size: 2rem;
+
+    h2 {
+        font-size: 2.5rem;
+        text-align: unset;
+        padding: 1rem;
+        font-weight: bold;
+    }
+
+    h2:hover {
+        color: #4477b6;
+    }
+
+    p {
+        font-size: 2rem;
+        text-align: unset;
+        padding: 1rem;
+    }
+}
+
+/* Main */
+
+
+/* Footer */
+
+.footer__divMayor {
+    background-image: linear-gradient(to right bottom, #000000, #1c1619, #2e242e, #3e3547, #484862, #4f5571, #546380, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+}
+
+.footer__divAyuda {
+    color: $colsec;
+    text-align: center;
+    margin: 1rem;
+    margin-top: 2rem;
+    width: 20%;
+
+    h2 {
+        font-size: 2rem;
+        font-family: monospace;
+    }
+
+    p {
+        font-size: 1.3rem;
+        font-family: monospace;
+    }
+}
+
+.footer__Class {
+    color: $colsec;
+    margin-top: 10rem;
+    font-size: 1rem;
+}
+
+.footer__divRedes {
+    padding: 2rem;
+    margin: 3rem;
+
+    p {
+        color: $colsec;
+        font-size: 1rem;
+        font-family: monospace;
+        margin-left: 4rem;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        margin: 1rem;
+
+        li {
+            padding: 1rem;
+        }
+    }
+}
+
+/* Footer */

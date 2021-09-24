@@ -1,0 +1,93 @@
+/* Reparacion */
+
+.section__prin {
+    background-image: linear-gradient(to right bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+}
+
+.section__primerTi {
+    h1 {
+        text-align: center;
+        font-size: 4rem;
+        padding: 2rem;
+    }
+}
+
+.section__imaMedia {
+    padding: 2rem;
+    margin-left: 5rem;
+    margin-right: 10rem;
+    height: 400px;
+}
+
+.section__conteNido {
+    padding: 1rem;
+    margin: 1rem;
+    margin-right: 15rem;
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    ul {
+        font-size: 1.5rem;
+        padding: 2rem;
+        line-height: 2.5;
+        list-style: none;
+    }
+}
+
+h3 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 4rem;
+    display: inline-block;
+    position: relative;
+}
+
+h3::after,
+h3::before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 3px;
+    background-color: black;
+    top: 1.7em;
+    transform: scale(0);
+    transition: all 0.4s ease-in;
+}
+
+h3:hover::before,
+h3:hover::after {
+    transform: scale(1);
+}
+
+h3::before {
+    left: -1px;
+}
+
+h3::after {
+    right: -1px;
+}
+
+.repa__img {
+    margin-top: 10rem;
+}
+
+.section__li {
+    padding: 5rem;
+
+    h4 {
+        font-size: 2rem;
+        padding: 2rem;
+        font-weight: bold;
+    }
+
+    ul {
+        font-size: 1.8rem;
+        padding: 2rem;
+        line-height: 1.5;
+        list-style: none;
+    }
+}
