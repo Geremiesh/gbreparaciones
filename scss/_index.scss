@@ -1,15 +1,29 @@
 /* Index */
 /* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, #303843, #35404f, #3a485b, #3f5168, #445975, #4b617e, #536986, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+}
+
+.logo__img {
+    width: 60%;
+}
 
 .header__indeDiv {
-    background-image: linear-gradient(to bottom, #303843, #35404f, #3a485b, #3f5168, #445975, #4b617e, #536986, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+    background: transparent;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 1rem;
 }
 
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-brand .navbar-light{
+    color: white;
+}
+
 .nav__pala {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     margin-left: 13px;
     transition: all 1s;
 }

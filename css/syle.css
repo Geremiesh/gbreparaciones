@@ -19,16 +19,34 @@ html {
 
 /* Index */
 /* Header */
-.header__indeDiv {
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#303843), color-stop(#35404f), color-stop(#3a485b), color-stop(#3f5168), color-stop(#445975), color-stop(#4b617e), color-stop(#536986), color-stop(#5a718f), color-stop(#667a95), color-stop(#71839a), color-stop(#7d8da0), to(#8996a6));
   background-image: linear-gradient(to bottom, #303843, #35404f, #3a485b, #3f5168, #445975, #4b617e, #536986, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+}
+
+.logo__img {
+  width: 60%;
+}
+
+.header__indeDiv {
+  background: transparent;
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1rem;
 }
 
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-brand .navbar-light {
+  color: white;
+}
+
 .nav__pala {
-  font-size: 1.5rem;
+  font-size: 2.2rem;
   margin-left: 13px;
   -webkit-transition: all 1s;
   transition: all 1s;
