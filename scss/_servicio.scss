@@ -36,12 +36,12 @@
 
 .section__img {
     background-image: linear-gradient(to left, #4b6587, #586f8e, #647a95, #71849d, #7e8fa4, #8e9bae, #9ea7b8, #adb4c2, #c2c6d1, #d7d8e0, #ebebef, #ffffff);
-    height: $alto-box;
-    width: $ancho-box;
-    font-size: 3rem;
     padding: 7rem;
-    font-size: 3.5rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-family: monospace;
+
+    p {
+        font-size: 3rem;
+        font-family: monospace;
+    }
 }

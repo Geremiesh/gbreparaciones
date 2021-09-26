@@ -310,13 +310,13 @@ header {
 .section__img {
   background-image: -webkit-gradient(linear, right top, left top, from(#4b6587), color-stop(#586f8e), color-stop(#647a95), color-stop(#71849d), color-stop(#7e8fa4), color-stop(#8e9bae), color-stop(#9ea7b8), color-stop(#adb4c2), color-stop(#c2c6d1), color-stop(#d7d8e0), color-stop(#ebebef), to(#ffffff));
   background-image: linear-gradient(to left, #4b6587, #586f8e, #647a95, #71849d, #7e8fa4, #8e9bae, #9ea7b8, #adb4c2, #c2c6d1, #d7d8e0, #ebebef, #ffffff);
-  height: 250px;
-  width: 100%;
-  font-size: 3rem;
   padding: 7rem;
-  font-size: 3.5rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.section__img p {
+  font-size: 3rem;
   font-family: monospace;
 }
 
