@@ -1,7 +1,7 @@
 /* Contacto */
 
 .mainSec {
-    background-image: linear-gradient(to right bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+    background-image: linear-gradient(to right bottom, #4a5869, #49586b, #47586c, #46586e, #455870, #55647c, #647187, #747e93, #979cad, #babcc7, #dddde3, #ffffff);
     display: flex;
 }
 
@@ -10,9 +10,10 @@
 }
 
 .teLe {
-    background: -webkit-linear-gradient(rgb(39, 49, 40),#166ed8);
+    background: -webkit-linear-gradient(rgb(235, 242, 243),#006eff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
     margin: 1rem;
     padding: 1rem;
     font-size: 2rem;
@@ -20,13 +21,13 @@
 }
 
 .ofiCi {
-    background: -webkit-linear-gradient(rgb(30, 54, 33),#166ed8);
+    background: -webkit-linear-gradient(rgb(235, 242, 243),#006eff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 1rem;
     padding: 1rem;
     font-size: 2rem;
-    text-align: end;
+    text-align: center;
     font-weight: bold;
 }
 

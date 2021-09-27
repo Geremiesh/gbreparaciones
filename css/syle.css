@@ -476,8 +476,8 @@ h2 {
 
 /* Contacto */
 .mainSec {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#445872), color-stop(#747e93), color-stop(#a3a6b6), color-stop(#d1d1da), to(#ffffff));
-  background-image: linear-gradient(to right bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#4a5869), color-stop(#49586b), color-stop(#47586c), color-stop(#46586e), color-stop(#455870), color-stop(#55647c), color-stop(#647187), color-stop(#747e93), color-stop(#979cad), color-stop(#babcc7), color-stop(#dddde3), to(#ffffff));
+  background-image: linear-gradient(to right bottom, #4a5869, #49586b, #47586c, #46586e, #455870, #55647c, #647187, #747e93, #979cad, #babcc7, #dddde3, #ffffff);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -488,9 +488,10 @@ h2 {
 }
 
 .teLe {
-  background: -webkit-linear-gradient(#273128, #166ed8);
+  background: -webkit-linear-gradient(#ebf2f3, #006eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-align: center;
   margin: 1rem;
   padding: 1rem;
   font-size: 2rem;
@@ -498,13 +499,13 @@ h2 {
 }
 
 .ofiCi {
-  background: -webkit-linear-gradient(#1e3621, #166ed8);
+  background: -webkit-linear-gradient(#ebf2f3, #006eff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 1rem;
   padding: 1rem;
   font-size: 2rem;
-  text-align: end;
+  text-align: center;
   font-weight: bold;
 }
 
