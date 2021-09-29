@@ -270,6 +270,7 @@ header {
 }
 
 /* Footer */
+/* media query */
 /* Servicio */
 .section__imaMain {
   background-image: -webkit-gradient(linear, right top, left bottom, from(#445872), color-stop(#747e93), color-stop(#a3a6b6), color-stop(#d1d1da), to(#ffffff));
