@@ -26,8 +26,8 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#303843), color-stop(#35404f), color-stop(#3a485b), color-stop(#3f5168), color-stop(#445975), color-stop(#4b617e), color-stop(#536986), color-stop(#5a718f), color-stop(#667a95), color-stop(#71839a), color-stop(#7d8da0), to(#8996a6));
-  background-image: linear-gradient(to bottom, #303843, #35404f, #3a485b, #3f5168, #445975, #4b617e, #536986, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000000), color-stop(#1c1619), color-stop(#2e242e), color-stop(#3e3547), color-stop(#484862), color-stop(#4f5571), color-stop(#546380), color-stop(#5a718f), color-stop(#667a95), color-stop(#71839a), color-stop(#7d8da0), to(#8996a6));
+  background-image: linear-gradient(to right bottom, #000000, #1c1619, #2e242e, #3e3547, #484862, #4f5571, #546380, #5a718f, #667a95, #71839a, #7d8da0, #8996a6);
 }
 
 .logo__img {
