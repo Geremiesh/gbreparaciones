@@ -337,7 +337,6 @@ header {
   padding: 2rem;
   margin-left: 5rem;
   margin-right: 10rem;
-  height: 400px;
 }
 
 .section__conteNido {
@@ -417,6 +416,13 @@ h3::after {
   list-style: none;
 }
 
+.ima__bajo {
+  padding: 1rem;
+  margin-left: 5rem;
+  margin-right: 10rem;
+  height: 70vh;
+}
+
 /* Nosotros */
 .section__grid {
   background-image: -webkit-gradient(linear, right top, left bottom, from(#445872), color-stop(#747e93), color-stop(#a3a6b6), color-stop(#d1d1da), to(#ffffff));
@@ -456,7 +462,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .nav__img h2 {
@@ -528,9 +534,7 @@ h2 {
 }
 
 .formu__lario h1 {
-  font-size: 5rem;
   text-align: center;
-  margin: 1.5rem;
 }
 
 .div {
