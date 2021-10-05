@@ -2,11 +2,6 @@
 
 .mainSec {
     background-image: linear-gradient(to right bottom, #4a5869, #49586b, #47586c, #46586e, #455870, #55647c, #647187, #747e93, #979cad, #babcc7, #dddde3, #ffffff);
-    display: flex;
-}
-
-.telFo {
-    margin: 1rem;
 }
 
 .teLe {
@@ -14,9 +9,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    margin: 1rem;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -24,25 +18,24 @@
     background: -webkit-linear-gradient(rgb(235, 242, 243),#006eff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin: 1rem;
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: bold;
 }
 
 .mapa {
+    margin-top: 6rem;
     text-align: center;
 }
 
 .formu__lario {
-    display: flex;
-    flex-direction: column;
-    padding: 4rem;
-    margin: 4rem;
+    padding: 1rem;
+    margin: 1rem;
 
     h1 {
         text-align: center;
+        margin: 1.5rem;
     }
 
 }
