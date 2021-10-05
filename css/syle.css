@@ -221,9 +221,7 @@ header {
 .footer__divAyuda {
   color: white;
   text-align: center;
-  margin: 1rem;
   margin-top: 2rem;
-  width: 20%;
 }
 
 .footer__divAyuda h2 {
@@ -237,32 +235,32 @@ header {
 }
 
 .footer__Class {
+  text-align: center;
   color: white;
   margin-top: 10rem;
   font-size: 1rem;
 }
 
 .footer__divRedes {
+  text-align: center;
   padding: 2rem;
-  margin: 3rem;
 }
 
 .footer__divRedes p {
   color: white;
-  font-size: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
   font-family: monospace;
-  margin-left: 4rem;
 }
 
 .footer__divRedes ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   list-style: none;
-  margin: 1rem;
 }
 
 .footer__divRedes ul li {
@@ -285,8 +283,6 @@ header {
   line-height: 2;
   padding: 5rem;
   margin-top: 5rem;
-  margin-right: 20rem;
-  margin-bottom: 20rem;
   list-style: none;
 }
 
@@ -295,8 +291,6 @@ header {
   font-size: 1.7rem;
   line-height: 1.5;
   padding: 2rem;
-  margin-left: 20rem;
-  margin-right: 10rem;
 }
 
 .section__divH2 h1 {
