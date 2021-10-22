@@ -507,7 +507,7 @@ h2 {
 .mainSec::before {
   content: "";
   position: absolute;
-  background-color: #051a38;
+  background-color: #00112b;
   opacity: 0.5;
   top: 0;
   bottom: 0;
