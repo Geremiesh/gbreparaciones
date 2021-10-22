@@ -330,7 +330,7 @@ header {
   content: "";
   position: absolute;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
   top: 0;
   bottom: 0;
   left: 0;
@@ -377,9 +377,9 @@ header {
 }
 
 .arti__cle {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#1f2839), color-stop(#232d41), color-stop(#273349), color-stop(#2b3851), color-stop(#2f3e59), color-stop(#424d68), color-stop(#545d78), color-stop(#676e88), color-stop(#8d90a4), color-stop(#b3b3c1), color-stop(#d9d8e0), to(#ffffff));
-  background-image: linear-gradient(to top, #1f2839, #232d41, #273349, #2b3851, #2f3e59, #424d68, #545d78, #676e88, #8d90a4, #b3b3c1, #d9d8e0, #ffffff);
-  margin-bottom: 0.5rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#2b3b59), color-stop(#374764), color-stop(#435270), color-stop(#4f5f7c), color-stop(#5b6b88), color-stop(#6e7a95), color-stop(#808aa3), color-stop(#939ab1), color-stop(#afb2c4), color-stop(#cacbd7), color-stop(#e5e4eb), to(#ffffff));
+  background-image: linear-gradient(to top, #2b3b59, #374764, #435270, #4f5f7c, #5b6b88, #6e7a95, #808aa3, #939ab1, #afb2c4, #cacbd7, #e5e4eb, #ffffff);
+  margin-bottom: 0.2rem;
 }
 
 h3 {
@@ -459,15 +459,28 @@ h2 {
 .nav__img {
   background-image: url(https://www.3digits.es/wp-content/uploads/2021/01/Seguridad-Informatica-Activa-Y-Pasiva.jpeg);
   background-repeat: no-repeat;
-  background-size: auto;
   background-position: center;
-  margin: 0.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .nav__img h2 {
   font-size: 3rem;
   text-align: center;
   color: white;
+  position: relative;
+}
+
+.nav__img::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  opacity: 0.3;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .nav__one {
@@ -483,18 +496,34 @@ h2 {
 
 /* Contacto */
 .mainSec {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#4a5869), color-stop(#49586b), color-stop(#47586c), color-stop(#46586e), color-stop(#455870), color-stop(#55647c), color-stop(#647187), color-stop(#747e93), color-stop(#979cad), color-stop(#babcc7), color-stop(#dddde3), to(#ffffff));
-  background-image: linear-gradient(to right bottom, #4a5869, #49586b, #47586c, #46586e, #455870, #55647c, #647187, #747e93, #979cad, #babcc7, #dddde3, #ffffff);
+  background-image: url(https://www.experta.com.ar/blogg/wp-content/uploads/sites/2/2019/04/compu-ideal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mainSec::before {
+  content: "";
+  position: absolute;
+  background-color: #051a38;
+  opacity: 0.5;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .teLe {
-  background: -webkit-linear-gradient(#ebf2f3, #006eff);
+  background: -webkit-linear-gradient(white, #02469e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: bold;
+  position: relative;
 }
 
 .ofiCi {
@@ -502,23 +531,27 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
   text-align: center;
   font-weight: bold;
+  position: relative;
 }
 
 .mapa {
   margin-top: 10rem;
   text-align: center;
+  position: relative;
 }
 
 .formu__lario {
   padding: 1rem;
+  position: relative;
 }
 
 .formu__lario h1 {
   text-align: center;
   margin: 1.5rem;
+  color: #e0e2e7;
 }
 
 .div {
