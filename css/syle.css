@@ -318,8 +318,28 @@ header {
 
 /* Reparacion */
 .section__prin {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#445872), color-stop(#747e93), color-stop(#a3a6b6), color-stop(#d1d1da), to(#ffffff));
-  background-image: linear-gradient(to right bottom, #445872, #747e93, #a3a6b6, #d1d1da, #ffffff);
+  background-image: url(http://zona-pc.com/wp-content/uploads/2015/02/reparacion-mantenimiento-ordenadores-en-murcia1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.section__prin::before {
+  content: "";
+  position: absolute;
+  background-color: black;
+  opacity: 0.7;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.section__primerTi {
+  position: relative;
+  color: white;
 }
 
 .section__primerTi h1 {
@@ -332,12 +352,15 @@ header {
   padding: 2rem;
   margin-left: 5rem;
   margin-right: 10rem;
+  position: relative;
 }
 
 .section__conteNido {
   padding: 1rem;
   margin: 1rem;
   margin-right: 1rem;
+  position: relative;
+  color: white;
 }
 
 .section__conteNido h2 {
@@ -353,6 +376,12 @@ header {
   list-style: none;
 }
 
+.arti__cle {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#1f2839), color-stop(#232d41), color-stop(#273349), color-stop(#2b3851), color-stop(#2f3e59), color-stop(#424d68), color-stop(#545d78), color-stop(#676e88), color-stop(#8d90a4), color-stop(#b3b3c1), color-stop(#d9d8e0), to(#ffffff));
+  background-image: linear-gradient(to top, #1f2839, #232d41, #273349, #2b3851, #2f3e59, #424d68, #545d78, #676e88, #8d90a4, #b3b3c1, #d9d8e0, #ffffff);
+  margin-bottom: 0.5rem;
+}
+
 h3 {
   margin-top: 1rem;
   text-align: center;
@@ -360,42 +389,18 @@ h3 {
   padding: 4rem;
   display: inline-block;
   position: relative;
-}
-
-h3::after,
-h3::before {
-  content: "";
-  position: absolute;
-  width: 320px;
-  height: 3px;
-  background-color: black;
-  top: 1.7em;
-  -webkit-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-}
-
-h3:hover::before,
-h3:hover::after {
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-h3::before {
-  left: -1px;
-}
-
-h3::after {
-  right: -1px;
+  color: black;
 }
 
 .repa__img {
   margin-top: 10rem;
+  position: relative;
 }
 
 .section__li {
   padding: 5rem;
+  position: relative;
+  color: white;
 }
 
 .section__li h4 {
@@ -488,7 +493,7 @@ h2 {
   -webkit-text-fill-color: transparent;
   text-align: center;
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -497,13 +502,13 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   font-weight: bold;
 }
 
 .mapa {
-  margin-top: 6rem;
+  margin-top: 10rem;
   text-align: center;
 }
 
