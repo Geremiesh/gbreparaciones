@@ -12,8 +12,8 @@
 .section__prin::before {
     content: "";
     position: absolute;
-    background-color: black;
-    opacity: 0.5;
+    background-color: rgb(2, 14, 24);
+    opacity: 0.6;
     top: 0;
     bottom: 0;
     left: 0;
@@ -60,7 +60,7 @@
 }
 
 .arti__cle {
-    background-image: linear-gradient(to top, #2b3b59, #374764, #435270, #4f5f7c, #5b6b88, #6e7a95, #808aa3, #939ab1, #afb2c4, #cacbd7, #e5e4eb, #ffffff);
+    background-image: linear-gradient(to top, #324975, #374764, #435270, #4f5f7c, #5b6b88, #6e7a95, #808aa3, #939ab1, #afb2c4, #cacbd7, #e5e4eb, #ffffff);
     margin-bottom: 0.2rem;
 }
 

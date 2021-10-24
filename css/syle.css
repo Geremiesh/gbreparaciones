@@ -329,8 +329,8 @@ header {
 .section__prin::before {
   content: "";
   position: absolute;
-  background-color: black;
-  opacity: 0.5;
+  background-color: #020e18;
+  opacity: 0.6;
   top: 0;
   bottom: 0;
   left: 0;
@@ -377,8 +377,8 @@ header {
 }
 
 .arti__cle {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#2b3b59), color-stop(#374764), color-stop(#435270), color-stop(#4f5f7c), color-stop(#5b6b88), color-stop(#6e7a95), color-stop(#808aa3), color-stop(#939ab1), color-stop(#afb2c4), color-stop(#cacbd7), color-stop(#e5e4eb), to(#ffffff));
-  background-image: linear-gradient(to top, #2b3b59, #374764, #435270, #4f5f7c, #5b6b88, #6e7a95, #808aa3, #939ab1, #afb2c4, #cacbd7, #e5e4eb, #ffffff);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#324975), color-stop(#374764), color-stop(#435270), color-stop(#4f5f7c), color-stop(#5b6b88), color-stop(#6e7a95), color-stop(#808aa3), color-stop(#939ab1), color-stop(#afb2c4), color-stop(#cacbd7), color-stop(#e5e4eb), to(#ffffff));
+  background-image: linear-gradient(to top, #324975, #374764, #435270, #4f5f7c, #5b6b88, #6e7a95, #808aa3, #939ab1, #afb2c4, #cacbd7, #e5e4eb, #ffffff);
   margin-bottom: 0.2rem;
 }
 
