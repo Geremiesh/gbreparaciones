@@ -350,15 +350,13 @@ header {
 
 .section__imaMedia {
   padding: 2rem;
-  margin-left: 5rem;
-  margin-right: 10rem;
   position: relative;
 }
 
 .section__conteNido {
+  text-align: center;
   padding: 1rem;
   margin: 1rem;
-  margin-right: 1rem;
   position: relative;
   color: white;
 }
@@ -418,8 +416,6 @@ h3 {
 
 .ima__bajo {
   padding: 1rem;
-  margin-left: 5rem;
-  margin-right: 10rem;
 }
 
 /* Nosotros */
@@ -516,7 +512,7 @@ h2 {
 }
 
 .teLe {
-  background: -webkit-linear-gradient(white, #02469e);
+  background: -webkit-linear-gradient(#06b9f0, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -527,7 +523,7 @@ h2 {
 }
 
 .ofiCi {
-  background: -webkit-linear-gradient(#ebf2f3, #006eff);
+  background: -webkit-linear-gradient(#06b9f0, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
